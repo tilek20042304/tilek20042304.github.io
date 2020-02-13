@@ -11,6 +11,7 @@ header{
 	width: 100%;
 	background: red;
 	display: flex;
+	 16px;
 }
 .header__logo{
 	color: #fff;
@@ -35,13 +36,19 @@ nav{
 }
 
  table th{
-		 	text-align: center;
-		 	background-color: #3a6070;
-		 	color: #FFF;
-		 	margin-top: 15px;
+	text-align: center;
+	background-color: #3a6070;
+	color: #FFF;
+	padding: 8px;
+			 }
+
+
+ table td{
+		border: 1px solid #e3e3e3;
 		 }
-		 table td{
-		 	border: 1px solid #e3e3e3;
-		 }
+
+table{
+	padding: 20px;
+}
  
 
