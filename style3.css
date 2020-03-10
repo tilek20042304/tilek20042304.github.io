@@ -1,4 +1,28 @@
-form{
+
+a{
+	text-decoration: none;
+	background-color: #d27979
+}
+
+header{
+	width: 100%;
+	display: flex;
+}
+nav{
+	font-weight: 900px;
+	font-size: 20px;
+	margin-top: 7px;
+	margin-left: 12%;
+}
+.topnav a{
+	background: #99994d;;
+	text-align: center;
+	padding: 2px 70px;
+}
+.topnav a:hover{
+	border-bottom: 3px solid #111109;
+}
+   form{
 	   		text-align: center;
 	    	}
 	   	button{
