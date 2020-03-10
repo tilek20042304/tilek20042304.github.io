@@ -1,12 +1,12 @@
 
 a{
 	text-decoration: none;
-	background-color: #d27979
 }
 
 header{
 	width: 100%;
 	display: flex;
+	background: #99994d;
 }
 nav{
 	font-weight: 900px;
@@ -15,12 +15,12 @@ nav{
 	margin-left: 12%;
 }
 .topnav a{
-	background: #99994d;;
+    color: #000;
 	text-align: center;
 	padding: 2px 70px;
 }
 .topnav a:hover{
-	border-bottom: 3px solid #111109;
+	border-bottom: 3px solid red;
 }
    form{
 	   		text-align: center;
