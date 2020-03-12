@@ -4,15 +4,15 @@ a{
 }
 
 header{
+    background: #99994d;
 	width: 100%;
 	display: flex;
-	background: #99994d;
 }
 nav{
 	font-weight: 900px;
 	font-size: 20px;
-	margin-top: 10px;
-	margin-left: 16%;
+	margin-top: 12px;
+	margin-left: 17%;
 	height: 37px;
 }
 .topnav a{
@@ -21,7 +21,7 @@ nav{
 	padding: 2px 70px;
 }
 .topnav a:hover{
-	border-bottom: 3px solid #000;
+	border-bottom: 3px solid #fff;
 }
    form{
 	   		text-align: center;
