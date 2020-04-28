@@ -5,16 +5,14 @@
 	<link rel="stylesheet" type="text/css" href="style3.css">
 	</head>
 <body>
-
+ 
 	<header>
-		<nav>
-			<div class="topnav" id="mytopnav">
-				<a href="">Регистрацию</a>
-			    <a href="">Сохранить</a>
-				<a href="">Интернету</a>
+			<div class="menu">
+				<a href="#main">Регистрацию</a>
+			    <a href="#about">Сохранить</a>
+				<a href="#contacts">Интернету</a>
 				<a href="">Сайт</a>	
 			</div>
-		</nav>
 	</header>
 
 <form action="#" name="Myform">
@@ -50,5 +48,39 @@
     	<button class="hh" type="reset">отмена</button> <button>сохранить</button>
         </p>
 </form>
+<form action="#" name="Myform">
+	<p>
+		<label> <h3>Регистрация</h3>  Фамилия<br>
+          <input type="text" placeholder="" required>
+		</label>
+		
+	</p>
+	 	<p>
+	<label>	Имя </label><br>
+		<input type="text" placeholder="" required=><br>
+	</p>
+
+		<p>
+		<label>Дата рождения </label><br>
+		<input type="text" placeholder="" required=><br>
+	   </p>
+      <label for="city">Команда</label><br>
+    <select name="city" id="city"><br>
+    	<option>Реал мадрид</option>
+    	<option>Барселона</option>
+    	<option>Реал сосидат</option>
+    	<option>Севиля</option>
+    	<option>Валенсия</option>
+    	<option>Малага</option>
+    </select>
+          <br>
+          <br>
+       <input type="checkbox" id="agree">
+       <label for="agree">согласен</label>
+        <p>
+    	<button class="hh" type="reset">отмена</button> <button>сохранить</button>
+        </p>
+        </form>
+
 </body>
 </html> 
